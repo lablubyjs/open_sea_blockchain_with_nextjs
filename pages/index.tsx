@@ -1,11 +1,13 @@
-
-import { NextPage } from 'next'
-import { Header } from '@/components'
+import {NextPage} from 'next';
+import {Header, Hero} from '@/components';
 
 const Home: NextPage = () => {
   return (
-    <Header/>
-  )
-}
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
+};
 
-export default Home
+export default Home;
